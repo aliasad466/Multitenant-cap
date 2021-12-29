@@ -1,0 +1,17 @@
+---
+applications:
+  - name: mtt-cap-services
+    path: .
+    memory: 256M
+    disk-quota: 512M
+    buildpacks:
+      - nodejs_buildpack
+    env: 
+      SAP_JWT_TRUST_ACL: [{ "clientid": "*", "identityzone": "sap-provisioning" }] # Trust between server and SaaS Manager
+      EXIT: 1
+    services:
+      - mtt-xsuaa
+      - mtt-service-manager
+      - mtt-saas
+      - mtt-application-logging
+

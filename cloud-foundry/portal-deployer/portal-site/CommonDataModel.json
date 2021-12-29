@@ -13,6 +13,7 @@
 					"title": "{{catalogs.title}}",
 					"entityType": "catalog",
 					"i18n": "i18n/i18n.properties"
+
 				},
 				"payload": {
 					"viz": []
