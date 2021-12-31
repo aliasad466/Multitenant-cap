@@ -31,7 +31,7 @@ It contains these folders and files:
 
 ## For each customer
 * create a new subaccount
-* subscribe to Mulitenant-Portal appication
+* subscribe to Mulitenant-Portal Application
 * open provider subaccount
 * create a route in and bind it to mtt-approuter using the following pattern {subdomain}-{space}-{appname}
 * launch the application
