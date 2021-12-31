@@ -28,21 +28,13 @@ It contains these folders and files:
 * run `./npm-install-all-apps.sh`
 * run `npm run build && npm run deploy`
 
+
 ## For each customer
-* create a new subaccount for the customer (don't need Cloud Foundry enabled)
-* add the entitlement portal service to the customer subaccount with service plan `standard (Subscription)`
-* add the role collection `Portal_Admin` to you user
-* subscribe the subaccount of the customer to the portal
-* subscribe the subaccount of the customer to the app `dev-mt-app-pub`
-* launch the portal service with the *Go to Application* link
-* in the content explorer there is the app `Manage Access-Rights`, add it to `My Content`
-* assign the app to the `Everyone` role
-* create the new portal group `Multitenant`
-* assign the app to the new group
-* create and launch a site
-* click on the tile `Manage Access-Rights`
-* you get the error for the missing route, create the route in the `trial` space, bind to app `mtt-approuter`
-* refresh the site page
+* create a new subaccount
+* subscribe to portalite2 appication
+* open provider subaccount
+* create a route in and bind it to mtt-approuter using the following pattern {subdomain}-{space}-{appname}
+* launch the application
 
 ## References and thanks
 * https://blogs.sap.com/2020/08/20/getting-your-head-into-cloud-application-programming-model-multitenancy/
