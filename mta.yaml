@@ -180,7 +180,7 @@ resources:
       service: xsuaa
       service-plan: application
       path: cloud-foundry/xsuaa/xs-security.json
-      xsuaa-app: portallite2
+      xsuaa-app: Multitenant-Portal
       config:
         xsappname: ${xsuaa-app}
         tenant-mode: shared
