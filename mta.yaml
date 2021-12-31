@@ -146,6 +146,7 @@ modules:
               content-endpoint: developer
       - name: mtt-html5-repo-host
       - name: mtt-xsuaa
+      - name: mtt-saas
       
 
 #
