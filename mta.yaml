@@ -154,16 +154,7 @@ modules:
 # ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ #
 #
 resources:
-  #
-  #   ┌─────────────────────────────────────┐   #
-  #   │            DESTINATIONS             │   #
-  #   └─────────────────────────────────────┘   #
-  #
-  - name: mtt-destination
-    type: org.cloudfoundry.managed-service
-    parameters:
-      service: destination
-      service-plan: lite
+
   #
   #   ┌─────────────────────────────────────┐   #
   #   │           SERVICE MANAGER           │   #
