@@ -38,6 +38,8 @@ It contains these folders and files:
 
 ## References and thanks
 * https://blogs.sap.com/2020/08/20/getting-your-head-into-cloud-application-programming-model-multitenancy/
+* https://blogs.sap.com/2021/02/18/understanding-dependencies-in-saas-provisioning/
+* https://github.com/sbarzaghialteaup/cap-multitenant-portal
 
 ## Note
 * saas AppName must be unique in Cloud Foundry?
